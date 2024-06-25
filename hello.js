@@ -1,0 +1,1 @@
+console.log("this is the java script my goal was to learn javascript in few months");
