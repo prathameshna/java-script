@@ -1,20 +1,33 @@
-// let arr = [1, 3, 6, 7, 4, 8, 45]
-// console.log(arr.length)
-// delete [0]
-// console.log(arr.length)
+let n = [2, 3, 5, 4, 7, 8]   
+console.log(n.length)
+delete n[0]              // If you delete any element from the array, but the size of the element remains unchanged.
+console.log(n.length)
 
-// //concat method.
+let num = [22, 34, 54, 4, 7, 86] 
+let num1 = [22, 34, 54, 4, 7, 86]          // this use for comnbine two array with each other.
+let num2 = num.concat(num1)            
+console.log(num2);
 
-// arr1 = [51, 33, 63, 74, 45, 87, 46]
-// arr2 = [31, 53, 56, 37, 44, 58, 65]
+let srt = [22, 34, 54, 4, 7, 86] 
+srt.sort()                         //  this SORT method are sort alphabeticle not a ascending or disending order.
+console.log(srt)
 
-// let Arr = arr1.concat(arr2)
-// console.log(Arr)
 
-// Sort method.
-let compare = (a, b)=>{
-    return a - b                   // sorting array using function in ascending order.
+let compare = (a,b)=>{
+    return a - b             // To achieve the proper ascending or descending order, we need to do this.
 }
-let num = [2, 65, 3, 6, 5, 1, 45, 67, 4]
-num.sort(compare)
-console.log(num);
+let srt1 = [22, 34, 54, 4, 7, 86] `
+srt1.sort(compare)
+console.log(srt1);
+
+//splice element
+
+let spls = [22, 34, 54, 4, 7, 86] 
+spls.splice(2, 3, 55, 66)          //splice element are use to add and remove element from array.
+console.log(spls);
+
+let sls = [22, 34, 54, 4, 7, 86] 
+let newArry = sls.slice(3)
+console.log(newArry);
+
+

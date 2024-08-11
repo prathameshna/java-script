@@ -1,0 +1,1 @@
+ // If you delete any element from the array, but the size of the element remains unchanged.

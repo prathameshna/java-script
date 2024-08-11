@@ -1,5 +1,5 @@
 let sum = 0
-let n = prompt("Enter value of n")
+let n = prompt("Ent er value of n")
 n = Number.parseInt(n)
 for (let i = 0; i < n; i++) {
 
