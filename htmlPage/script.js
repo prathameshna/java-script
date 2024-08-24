@@ -1,14 +1,16 @@
 
-let age = prompt("what is your age :")
-age = Number.parseInt(age)
+// let age = prompt("what is your age :")
+// age = Number.parseInt(age)
 
-const CanDrive = (age) => {
-    return age > 18 ? true : false
-}
+// const CanDrive = (age) => {
+//     return age > 18 ? true : false
+// }
 
-if (CanDrive(age)) {
-    alert("you can drive")
+// if (CanDrive(age)) {
+//     alert("you can drive")
 
-} else {
-    alert("you can not drive")
-}
+// } else {
+//     alert("you can not drive")
+// }
+let color = prompt("Enter a color")
+document.body.style.background = color;
