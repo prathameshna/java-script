@@ -5,3 +5,4 @@
 // Advantages of useing seperate script file using src attribute of script tag. following
 // 1) Seperation of concern.
 // 2) Browser Caching.
+// DOM are read only.
