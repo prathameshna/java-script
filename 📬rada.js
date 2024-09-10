@@ -1,12 +1,21 @@
-//Write a program to determine the greater of two numbers.
-let a = prompt("enter first number ")
-let b = prompt("enter second number ")
-let c;
-if(c = a>b){
-  console.log("first number is greater");
+/* Write a JavaScript function that reverses a number.
+Example x = 32243;
+Expected Output : 34223 */
+
+function reverse(num) {
+    if (num >= 0 && num <= 9) {
+        return num;
+    }
+
+    let reverse = 0;
+    while (num != 0) {
+        reverse = reverse * 10 + (num % 10);
+        num = Math.floor(num / 10);
+    }
+    return reverse;
 }
-else {
-  console.log("second number is smaller");
-}
- console.log(c);
- 
+console.log(reverse(123));
+
+
+
+

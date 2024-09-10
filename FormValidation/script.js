@@ -12,22 +12,21 @@ function data() {
     // data funtion complete
 
     // this function for phone number length
-    else if(b.length<10 ||b.length>10){
-       alert("Please enter valid number!")
+    else if (b.length < 10 || b.length > 10) {
+        alert("Please enter valid number!")
     }
     // function complete
     // this funtion for not allowed alphabate in phone number coulmn.
-    else if(isNaN(b)){
+    else if (isNaN(b)) {
         alert("only numbers are allowed")
     }
-     // function complete
-     //this is for confirm password.
-    else if(c !=d){
+    // function complete
+    //this is for confirm password.
+    else if (c != d) {
         alert("Please enter correct password")
     }
-     // function complete
-    else
-    {
+    // function complete
+    else {
         true;
     }
 }
