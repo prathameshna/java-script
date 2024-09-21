@@ -8,16 +8,16 @@ let n = prompt("Enter the value of n")
 n = Number.parseInt(n)
 
 let i = 0;
-whilea(i < n){
+while(i < n){
     console.log(i)
     i++;
 }
 // Do while loop
-let n = console.log("Enter value of n");
+let k = console.log("Enter value of n");
 
-n = Number.parseInt(n)
-let i = 0;
+k = Number.parseInt(k)
+let p = 0;
 do {
-    console.log(i);
-    i++;
-} while (i < n)
+    console.log(p);
+    p++;
+} while (p < k)

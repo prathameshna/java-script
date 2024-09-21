@@ -1,5 +1,3 @@
-let t = document.body.firstElementChild.firstElementChild
+let t = document.body.firstElementChild
 console.log(t);
-console.log(t.rows);
-console.log(t.caption);
 

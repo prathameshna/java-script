@@ -16,3 +16,8 @@ evnt.addEventListener('click', () => {
     console.log('click on avent');
     
 })
+
+// Event Listner
+btt.addEventListener('click',function(e)){
+    alert("hii")
+}
