@@ -1,0 +1,1 @@
+first.className = "text-dark red" 
