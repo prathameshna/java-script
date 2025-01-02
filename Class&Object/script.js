@@ -1,13 +1,20 @@
 class RailwayForm{
     submit(){
-        alert("form will be submitted.")
+        alert(this.name +"Form is sumbmit" + this.trainno)
     }
     cancel(){
-        alert("form will be canceled")
+        alert(this.name + "form is canceled" + this.trainno)
+    }
+    fill(Givenname,trainno){
+        this.name = Givenname
+        this.trainno
     }
 }
-let harry = new RailwayForm()
-let john = new RailwayForm()
 
-harry.submit()
-john.cancel()   
+let harryForm = new RailwayForm()
+harryForm.fill("harry", 1654465)
+let rohanForm = new RailwayForm()
+harryForm.fill("Rohan", 1654465)
+
+harryForm.submit()
+rohanForm.cancel()
